@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Index</title>
+</head>
+<body>
+
+<form action="/adminlogin" method="post">
+    姓名：<input type="text" th:value="${username}" name="username"><br/>
+    年龄：<input type="text" th:value="${password}" name="password"><br/>
+    简介：<input type="text" th:value="${info}" name="info"><br/>
+    <button>保存</button>
+</form>
+</body>
+</html>
